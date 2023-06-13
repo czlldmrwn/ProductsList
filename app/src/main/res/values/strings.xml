@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Products List</string>
+    <string name="products_list">Список покупок</string>
+    <string name="developer">Разработчик: Волженская Полина, группа РИБО-04-21</string>
+    <string name="loginMessage">Вход в приложение</string>
+    <string name="loginHint">Логин</string>
+    <string name="passwordHint">Пароль</string>
+    <string name="loginBtnText">ВОЙТИ</string>
+    <string name="btnAddList">Добавить список</string>
+    <string name="btnDeleteList">Удалить список</string>
+    <string name="addProductName">Название продукта (обязательно)</string>
+    <string name="addPrice">Цена</string>
+    <string name="addAmount">Количество</string>
+    <string name="addListName">Название списка</string>
+    <string name="btnAddProduct">Добавить продукт</string>
+    <string name="btnToList">К списку</string>
+    <string name="insert_success">Продукт успешно добавлен</string>
+    <string name="incorrect_value">Вы ввели некорректное значение</string>
+    <string name="insert_error">При добавлении произошла ошибка</string>
+    <string name="btnShare">Поделиться списком покупок</string>
+    <string name="btnRename">Переименовать список</string>
+    <string name="selectDeleteItem">Выберите список для удаления</string>
+    <string name="selectRenameItem">Выберите какой список переименовать</string>
+    <string name="btnOk">OK</string>
+    <string name="nameHint">Введите имя</string>
+    <string name="enterNewName">Введите новое имя списка</string>
+</resources>

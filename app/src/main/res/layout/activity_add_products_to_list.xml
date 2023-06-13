@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddProductsToListActivity"
+    android:background="@drawable/ic_background_image">
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:id="@+id/etProductName"
+        android:hint="@string/addProductName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/border_edit_text"
+        android:paddingStart="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etUnnecessaryParams"
+        android:layout_below="@+id/etProductName"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <EditText   android:id="@+id/etPrice"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:hint="@string/addPrice"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_edit_text"
+            android:paddingStart="10dp"/>
+
+        <EditText
+            android:id="@+id/etAmount"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:hint="@string/addAmount"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/border_edit_text"
+            android:paddingStart="10dp"/>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnAddProduct"
+        android:layout_below="@+id/etUnnecessaryParams"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_corners"
+        android:text="@string/btnAddProduct"
+        android:textColor="@color/white"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnToList"
+        android:layout_below="@+id/btnAddProduct"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_corners"
+        android:text="@string/btnToList"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>
