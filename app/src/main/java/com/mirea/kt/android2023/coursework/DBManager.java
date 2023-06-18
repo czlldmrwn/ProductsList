@@ -44,7 +44,7 @@ public class DBManager {
             do{
                 String productName = dbCursor.getString(dbCursor.getColumnIndexOrThrow("product_name"));
                 int price =  dbCursor.getInt(dbCursor.getColumnIndexOrThrow("price"));
-                int amount =  dbCursor.getInt(dbCursor.getColumnIndexOrThrow("price"));
+                int amount =  dbCursor.getInt(dbCursor.getColumnIndexOrThrow("amount"));
                 products.add(new Product(productName, price, amount));
             } while (dbCursor.moveToNext());
         }
